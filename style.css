@@ -1,0 +1,47 @@
+.gambar{
+    width:500px;
+    /* animation: tes 2s ; */
+}
+button{
+    cursor:pointer;
+}
+.baru{
+    animation: baru 2s;
+}
+.tes{
+    animation: tes 2s ;
+    /* transition: 2s; */
+} 
+.container{
+    width: 710px;
+    display: block;
+    margin: auto;
+}
+.tombol{
+    width:10px;
+    height:10px;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 100%;
+    background:rgb(76, 228, 62);
+    border:2px solid red;
+    justify-self: center;   
+    align-self: center;
+}
+.tombol:hover{
+    background: red;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 105px 500px 105px;
+}
+@keyframes tes{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes baru{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
